@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: 'Roboto', Helvetica, sans-serif;
   background-color: grey;
   margin: 0;
@@ -68,4 +68,99 @@ form button {
 
 .site-footer {
   padding: 2rem 0;
+} */
+
+
+
+body {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  background-color: #000; 
+  color: #fff; 
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+  color: #eec008; 
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+img {
+  width: 100%;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  background-color: #423f3f; 
+}
+
+.main-nav ul li {
+  flex: 2;
+  text-align: center;
+}
+
+.main-nav ul li a {
+  display: block;
+  color: #eec008; 
+  text-decoration: none;
+  font-size: 1.26rem;
+  padding: 1.1rem; 
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: .4rem 2rem;
+  background-color: #222; 
+  color: #fff; 
+  border: 1px solid #777; 
+}
+
+form textarea {
+  min-height: 150px;
+  max-height: 150px;
+  height: 151px;
+  resize: none;
+}
+
+form button {
+  background-color: #eec008; 
+  border: 1px solid #333;
+  color: #333; 
+  padding: 2rem;
+  text-transform: uppercase;
+  cursor: pointer; 
+}
+
+.site-footer {
+  padding: 3rem 0;
+  background-color: #222;
+  color: #eec008; 
+  text-align: center;
+}
+.skip-link {
+  position: absolute;
+  top: -43px;
+  left: 1;
+  background-color: #333;
+  color: #fff;
+  padding: 12px;
+  z-index: 999;
 }
